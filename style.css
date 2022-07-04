@@ -188,14 +188,18 @@
     flex-direction: column;
 }
 .labs_first_block{
-    max-width: 562px;
+    width: 100%;
     display: flex;
     margin: 0 auto;
     margin-top: 77px;
     margin-bottom: 132px;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+}
+.labs_img{
+    padding: 0 50px;
+
 }
 .labs_second_block{
     display: flex;
@@ -422,7 +426,7 @@
         flex-direction: column;
     }
     .labs_first_block{
-        max-width: 562px;
+        max-width: 60%;
         margin: 0 auto;
         margin-top: 47px;
         margin-bottom: 32px;
@@ -568,6 +572,10 @@
     margin-bottom: 92px;
     text-align: center;
 }
+.pormise_flex{
+    text-align: center;
+    margin: 30px auto;
+}
 /* /////////////////////// */
 .todo_main_block{
     flex-direction: column-reverse;
@@ -601,6 +609,7 @@
 .portfolio_main_block{
     margin-top: 41px;
     margin-bottom: 56px;
+    text-align: center;
 }
 .portfolio_first_block h2{
     margin-bottom: 30px;
@@ -611,10 +620,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 .portfolio_card_block {
     margin-bottom: 70px;
     text-align: center;
+    margin: 40px auto;
+
 }
 .portfolio_card_block img{
     margin-bottom: 14px;
@@ -628,7 +641,7 @@
     flex-direction: column;
 }
 .labs_first_block{
-    max-width: 562px;
+    max-width: 362px;
     margin: 0 auto;
     margin-top: 47px;
     margin-bottom: 32px;
@@ -636,10 +649,11 @@
     justify-content: center;
 }
 .labs_img{
-    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 90px;
 }
 .labs_img img{
-    width: 100%;
+    width: 80%;
 }
 .labs_second_block{
     display: flex;
